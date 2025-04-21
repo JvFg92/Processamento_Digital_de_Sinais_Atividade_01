@@ -1,3 +1,7 @@
+clc;
+clear all;
+close all;
+
 n = -50:50;
 x = sin(0.125 * pi * n);
 [y, m] = dnsample(x, n, 4);
